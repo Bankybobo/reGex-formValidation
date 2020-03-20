@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegEx Registration Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="regEx.css">
+</head>
+<body>
+
+    <section class="container text-center">
+        
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#" class="nav-link">Home</a></li>
+                        <li><a href="#" class="nav-link">Faculties</a></li>
+                        <li><a href="#" class="nav-link">Administration</a></li>
+                        <li><a href="#" class="nav-link">Student Portal</a></li>
+                        <li><a href="#" class="nav-link">Staff Portal</a></li>
+                        <li><a href="#" class="nav-link">Transcript</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h3>Students Registration Portal</h3>
+            </div>
+        </div>
+    </section>
+
+<section class="container second-container">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+            <div class="col-md-12">
+                <input type="text" placeholder="First Name" id="firstName" name="firstName" required>
+                <span id="underFirstName" class="doNotShow">Only English alphabets allowed, minimum of three words</span>
+            </div>
+    
+            <div class="col-md-12">
+                <input type="text" placeholder="Last Name" id="lastName" name="lastName" required>
+                <span id="underLastName" class="doNotShow">Only English alphabets allowed, minimum of three words</span>
+            </div>
+
+    
+    
+            <div class="col-md-12">
+                <input type="text"  placeholder="Date of Birth: format(DD/MM/YYYY)"  id="DOB" name="DOB" required>
+                <span id="underDOB" class="doNotShow">Enter a valid DOB. Pattern: DD/MM/YYYY</span>
+            </div>
+
+    
+            <div class="col-md-12">
+                <input type="text" placeholder="Email" id="email" name="email" required>
+                <span id="underEmail" class="doNotShow">Enter a valid email. Pattern: example@live.com</span>
+            </div>
+
+    
+            <div class="col-md-12">
+                <input type="text" placeholder="Phone Number" id="phoneNumber" name="phoneNumber" required>
+                <span id="underPhone" class="doNotShow">Enter a valid phone number. Pattern: 08035507456</span>
+            </div>
+
+    
+            <div class="col-md-12">
+                <input type="text" placeholder="Password" id="password" name="password" required>
+                <span id="underPassword" class="doNotShow">One uppercase letter, one lowercase, one special xter, 8 min words, 8 max words </span>
+            </div>
+
+    
+            <div class="col-md-12">
+                <input type="text" placeholder="Confirm Password" id="confirmPassword" name="confirmPassword" required>
+                <span id="underPassword" class="doNotShow">Passwords do not Match </span>
+            </div>
+
+
+            <div class="col-md-6">
+                <input type="submit" class="btn mt-3 btn-primary btn-block" id="confirmPassword">
+            </div>
+
+
+        </div>
+
+        <div class="col-sm-12 col-md-8 right-column">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="/dining-hall.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- <div class="row">
+                <div class="col-md-12">
+                    <h2>Are you already a Student?</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="text" placeholder="Username">
+                </div>
+            </div>
+            
+
+            <div class="row">
+                <div class="col-md-12">
+                    <input type="text" placeholder="Password">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="btn btn-primary" id="submitBtn">Log In</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#">forgot password </a>
+                </div>
+            </div> -->
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+<script src="/regEx.js"></script>
+</body>
+</html>
